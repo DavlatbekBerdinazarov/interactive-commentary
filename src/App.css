@@ -1,0 +1,181 @@
+body{
+  background:rgb(245,246,250);
+}
+.container{
+  width: 100%;
+  height: 100%;
+
+}
+
+.comment-container{
+  width: 680px;
+  margin: auto;
+  padding:20px 0;
+}
+
+.main-comment{
+  width: 680px;
+  max-height: 160px;
+  margin: auto;
+  background-color: white;
+  border-radius: 5px;
+  margin: 20px 0;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.comment-status-counts{
+  width: 30px;
+  background: rgb(245,246,250);
+  color: rgba(90,90,137, 0.8);
+  height: 90px;
+  border-radius: 5px;
+  font-weight: 600;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding:0 20px;
+  gap: 15px;
+
+}
+
+.main-comment{
+  display: flex;
+}
+
+.users-img{
+  width: 27px;
+}
+
+.comment-body{
+  width: 100%;
+}
+
+.comment-titles{
+
+  /* min-width: 500px; */
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  margin-bottom: 9px;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.titles{
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.title-name{
+  font-weight: 600;
+  color: hsl(212, 24%, 26%);
+}
+
+.data-commented{
+  color: rgb(129, 134, 141);
+  font-size: 14px;
+}
+
+.user-paragraph{
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.reply-button{
+  border: none;
+  background-color: inherit;
+  padding: 11px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: rgb(92,97,165);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.reply-button-delete{
+  border: none;
+  background-color: inherit;
+  padding: 11px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: rgb(209, 64, 64);
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.replies-container{
+  max-width: 580px;
+  overflow: hidden;
+  margin-left: auto;
+}
+
+.reply-comment{
+  height: 160px;
+  max-width: 580px;
+  overflow: hidden;
+  max-height: 160px;
+  margin: 20px 0px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.btn {
+  position: relative;
+  top:-20px;
+  background-color: rgb(83,88,182);
+  color: white;
+  padding: 9px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.you{
+  background-color: rgb(83,88,182);
+  color: white;
+  padding:0 3px;
+  font-size: smaller;
+}
+
+.btn:active{
+  background-color: rgb(123, 127, 188);
+
+}
+
+.textarea{
+  border-radius: 7px;
+  border: 0.1px solid rgb(82, 82, 82);
+  padding: 15px;
+}
+
+.textarea[type="text"] {
+  width: 300px;
+}
+
+.textarea::placeholder{
+  font-family: sans-serif;
+}
+
+.textarea:focus{
+  font-family: sans-serif;
+  padding: 15px;
+  border: 0.1px solid rgb(194, 191, 191);
+}
